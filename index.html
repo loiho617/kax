@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Notify - Welcome</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -10,42 +11,48 @@
 
   <body>
     <header id="showcase">
-          <div id="header_main">
-            <h1 class="">Notify<span>.</span></h1>
-            <p>A greate new free psd theme to showcase your new application</p>
-            <div id="download-icons">
-              <div class="header-icon-bg">
-                <img src="./images/ios.png" alt="ios icon">
-              </div>
-
-              <div>
-                <img src="./images/android.png" alt="android icon">
-              </div>
-
-              <div>
-                <img src="./images/windows.png" alt="windows icon">
-              </div>
-            </div>
+      <div id="showcase_content">
+        <div id="header_main">
+          <div>
+            <h1 class="header_title">Notify</h1>
           </div>
+          <div class="header_dot"></div>
+        </div>
+        <p class="slogan">A greate new free psd theme to showcase<br>your new application.</p>
+        <div class="icon-list">
+          <div class="header-icon-bg">
+            <a href="#"><img src="./images/ios.png" alt="ios icon"></a>
+          </div>
+
+          <div class="header-icon-bg">
+            <a href="#"><img src="./images/android.png" alt="android icon"></a>
+          </div>
+
+          <div class="header-icon-bg">
+            <a href="#"><img src="./images/windows.png" alt="windows icon"></a>
+          </div>
+        </div>
+      </div>
     </header>
 
     <section id="features">
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col-md-4 col-sm-12">
             <img src="./images/feature_gear_color.png" alt="gear icon">
-            <h3>Editable Theme</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h4 class="section_header">Editable Theme</h4>
+            <p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore aliqua.</p>
           </div>
-          <div class="col">
+          <div class="col-md-4 col-sm-12">
             <img src="./images/feature_star_color.png" alt="star icon">
-            <h3>Flat Design</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h4 class="section_header">Flat Design</h4>
+            <p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore aliqua.</p>
           </div>
-          <div class="col">
+
+          <div class="col-md-4 col-sm-12">
             <img src="./images/feature_globe_color.png" alt="globe icon">
-            <h3>Reach Your Audience</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h4 class="section_header">Reach Your Audience</h4>
+            <p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore aliqua.</p>
           </div>
         </div>
       </div>
@@ -54,16 +61,16 @@
     <section id="get_notify">
       <div class="container">
         <div class="row">
-          <div class="col">
-            <h3>Editable Theme</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="col-md-6 col-sm-12">
+            <h4 class="section_header">Get Notifief of Any Update!</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             <form class="" action="" method="post">
-              <input type="email" placeholder="Email Address">
-              <button type="button" class="btn">Submit</button>
+              <input type="email" class="form-control" placeholder="Email Address">
+              <button type="button" class="btn notify_btn">Notify</button>
             </form>
           </div>
-          <div class="col">
-            <img src="./images/get_notify_img.png" alt="video">
+          <div class="col-md-6 col-sm-12">
+            <img src="./images/get_notify_img.png" class="img-responsive img-rounded" alt="video">
           </div>
         </div>
       </div>
@@ -107,9 +114,7 @@
         <li><a href="#">Privacy Policy</a></li>
       </ul>
     </footer>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js" crossorigin="anonymous"></script>
   </body>
 </html>
