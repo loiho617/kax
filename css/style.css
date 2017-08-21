@@ -33,6 +33,7 @@ h1 {
 /* HEADER */
 #showcase {
   min-height: 700px;
+  width: auto;
   background-image: url("../images/header_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -42,7 +43,7 @@ h1 {
 }
 
 #showcase_content {
-  margin: auto 0 auto 360px;
+  margin: auto 0 auto 400px;
   color: #ffffff;
 }
 
@@ -163,9 +164,38 @@ h1 {
   margin: 20px auto;
 }
 
+/* SLIDER */
+#myCarousel .item {
+  height: 220px;
+}
+.carousel-indicators {
+    margin: 0 auto;
+    width: 100%;
+    left: 40%;
+}
+
+.carousel-indicators .active {
+    width: 40px;
+    height: 40px;
+
+}
+
+.carousel-indicators img {
+    border: none;
+    height: 40px;
+    width: 40px;
+}
+.carousel-indicators li {
+    height: 40px;
+    width: 40px;
+}
+.carousel-indicators .active img {
+    border: 2px solid #2DCA6D;
+}
+
 
 .header_get_in_touch {
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 20px;
   font-weight: bold;
 }
@@ -214,6 +244,79 @@ footer a {
 }
 
 footer a:hover {
-  color: #a1a1a1;
+  color: #2DCA6D;
   text-decoration: none;
+}
+
+
+@media (max-width: 568px) {
+  #showcase {
+    min-height: 150px;
+  }
+
+  #showcase_content {
+    margin: auto 0 auto 30px;
+  }
+
+  h1 {
+    font-size: 2.2rem
+  }
+
+  #header_main {
+    padding-top: 5px;
+  }
+
+  .slogan {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  .header_icon_bg {
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #352319;
+    text-align: center;
+    padding-top: 3px;
+    margin-right: 5px;
+  }
+
+  .icon_list img {
+    width: auto;
+    height: 55%;
+  }
+
+  #get_notify form {
+    display: block;
+  }
+
+  .notify_btn {
+    border-radius: 5px;
+    padding: 8px 30px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  #notify_email_input {
+    border-radius:5px;
+    font-size: 20px;
+    height: 46px !important;
+    padding-left: 18px;
+    margin-bottom: 10px;
+  }
+
+  footer ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  footer li {
+    display: block;
+    font-size: 18px;
+    margin: 0;
+    line-height: 2;
+  }
 }
