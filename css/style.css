@@ -166,7 +166,7 @@ h1 {
 
 /* SLIDER */
 #myCarousel .item {
-  height: 220px;
+  height: 190px;
 }
 .carousel-indicators {
     margin: 0 auto;
@@ -306,6 +306,10 @@ footer a:hover {
     height: 46px !important;
     padding-left: 18px;
     margin-bottom: 10px;
+  }
+
+  #myCarousel .item {
+    height: 220px;
   }
 
   footer ul {
